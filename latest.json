@@ -1,11 +1,12 @@
 {
  "format": 1,
- "build": "b79b639390",
+ "build": "bce654fea0",
  "gameVersion": "72026594",
  "date": "2026-11-05",
- "notes": "Co-op help text now explains updates. No gameplay changes.",
+ "notes": "Co-op now reads the villagers' introductions from your own game instead of carrying a copy, and ships none of the game's files. No gameplay changes.",
  "previous": [
-  "53952f5463"
+  "53952f5463",
+  "b79b639390"
  ],
  "files": [
   {
@@ -105,8 +106,8 @@
   },
   {
    "path": "js/plugins/elderfieldcoop.js",
-   "sha256": "b79b63939045101f9bb04e7e82aced568ec752da740e37b0fb5cea8f3524f2de",
-   "size": 910586
+   "sha256": "bce654fea094ded15c300c75054779274a850902ff1e8480a2b740886b158263",
+   "size": 886018
   }
  ]
 }
