@@ -1,10 +1,12 @@
 {
  "format": 1,
- "build": "53952f5463",
+ "build": "b79b639390",
  "gameVersion": "72026594",
  "date": "2026-11-05",
- "notes": "Hotfix 26444682 support, each player's own bath, the co-op updater",
- "previous": [],
+ "notes": "Co-op help text now explains updates. No gameplay changes.",
+ "previous": [
+  "53952f5463"
+ ],
  "files": [
   {
    "path": "js/libs/node_modules/ws/browser.js",
@@ -103,8 +105,8 @@
   },
   {
    "path": "js/plugins/elderfieldcoop.js",
-   "sha256": "53952f54634a26b9c26a7db2b94d7bb6ffcd580632447614fc8d281c152cacd0",
-   "size": 910261
+   "sha256": "b79b63939045101f9bb04e7e82aced568ec752da740e37b0fb5cea8f3524f2de",
+   "size": 910586
   }
  ]
 }
