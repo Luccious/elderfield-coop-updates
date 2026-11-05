@@ -8,4 +8,12 @@ it is signed with co-op's key.
 - `builds/<build>/manifest.json` + `.sig`: each release's file list (paths, SHA-256, sizes)
 - `builds/<build>/files/...`: the files
 
-First install: the co-op zip. A new game version: the co-op zip made for it.
+## Getting co-op
+
+- **First install, or after the game itself updates:** download `Elderfield-Coop-Patch.zip` from
+  [Releases](https://github.com/Luccious/elderfield-coop-updates/releases/latest), unzip it and run
+  `Install Co-op.bat`. It updates an existing co-op copy in place; nothing needs deleting.
+  (`Elderfield-Coop-SteamTest.zip` is the same co-op for the Steam test copy.)
+- **After that:** the title screen offers each new co-op release; say "Update now". When joining a host whose
+  co-op files differ, the Co-op menu offers "Update to the host's version". Nothing changes until you say yes,
+  and "Don't check for updates" turns it off.
