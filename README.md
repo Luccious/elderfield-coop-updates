@@ -10,7 +10,13 @@ it is signed with co-op's key.
 
 ## Getting co-op
 
-- **First install, or after the game itself updates:** download a setup from
+- **The mods-folder version (Nexus):** unzip `Elderfield-Coop-Mod.zip` into the game's `mods` folder (it makes
+  `mods\ElderfieldCoop`), start the game from Steam and press **CO-OP** on the title screen. The first time it
+  makes the co-op copy of your game (its own folder and saves; your Steam game and its saves are never changed);
+  after a game update it brings the copy up to date (co-op worlds kept); then it starts it. The copy gets co-op
+  updates from here like a setup's copy, and pressing CO-OP never puts an older co-op build over a newer one it
+  got. A game update empties the `mods` folder: put the mod back.
+- **Or a setup (first install, or after the game itself updates):** download one from
   [Releases](https://github.com/Luccious/elderfield-coop-updates/releases/latest) and run it:
   `Elderfield-Coop-Steam-Setup.exe` connects through Steam, `Elderfield-Coop-Setup.exe` directly (home network,
   internet code or Hamachi). It makes a co-op copy of your own Steam game, or updates an existing one in place and
