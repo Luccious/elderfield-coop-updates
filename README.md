@@ -15,7 +15,9 @@ it is signed with co-op's key.
   makes the co-op copy of your game (its own folder and saves; your Steam game and its saves are never changed);
   after a game update it brings the copy up to date (co-op worlds kept); then it starts it. The copy gets co-op
   updates from here like a setup's copy, and pressing CO-OP never puts an older co-op build over a newer one it
-  got. A game update empties the `mods` folder: put the mod back.
+  got. A game update empties the `mods` folder: put the mod back. **With Vortex:** install it, enable and deploy;
+  Vortex adds it to the game's plugin list instead of the `mods` folder (co-op then connects through Steam; to
+  connect directly, also put the `ElderfieldCoop` folder into `mods` by hand and set it there).
 - **Or a setup (first install, or after the game itself updates):** download one from
   [Releases](https://github.com/Luccious/elderfield-coop-updates/releases/latest) and run it:
   `Elderfield-Coop-Steam-Setup.exe` connects through Steam, `Elderfield-Coop-Setup.exe` directly (home network,
