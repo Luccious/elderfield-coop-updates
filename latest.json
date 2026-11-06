@@ -1,12 +1,13 @@
 {
  "format": 1,
- "build": "bce654fea0",
+ "build": "8ced3ffdf3",
  "gameVersion": "72026594",
- "date": "2026-11-05",
- "notes": "Co-op now reads the villagers' introductions from your own game instead of carrying a copy, and ships none of the game's files. No gameplay changes.",
+ "date": "2026-11-06",
+ "notes": "Co-op's mod check names each mod once (Hollowbrook from the mods folder was listed twice). With Vortex, press Deploy after a game update.",
  "previous": [
   "53952f5463",
-  "b79b639390"
+  "b79b639390",
+  "bce654fea0"
  ],
  "files": [
   {
@@ -106,8 +107,8 @@
   },
   {
    "path": "js/plugins/elderfieldcoop.js",
-   "sha256": "bce654fea094ded15c300c75054779274a850902ff1e8480a2b740886b158263",
-   "size": 886018
+   "sha256": "8ced3ffdf340a44a5244f184f3cfce0cbb9d216635cd42519e621cd5d4ca311c",
+   "size": 886340
   }
  ]
 }
