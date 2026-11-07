@@ -1,8 +1,8 @@
 {
  "format": 1,
  "kind": "launcher",
- "build": "bbb6e7be22",
- "stamp": "2026-11-07T03:55:59Z",
+ "build": "73b3a91aee",
+ "stamp": "2026-11-07T22:10:04Z",
  "date": "2026-11-07",
  "files": [
   {
@@ -17,18 +17,18 @@
   },
   {
    "path": "ElderfieldCoop-files/elderfieldcoop.js",
-   "sha256": "8ced3ffdf340a44a5244f184f3cfce0cbb9d216635cd42519e621cd5d4ca311c",
-   "size": 886340
+   "sha256": "df0345b5dcb8714c73fdedfddf36eef4a71fc46fa1be4103c1fca3b5ed9c0595",
+   "size": 900916
   },
   {
    "path": "ElderfieldCoop-files/launcher.json",
-   "sha256": "1e382b45fb20c9208278fb66aa962a759f833f5da33e5bd2c38f32fb8f7b8d9e",
+   "sha256": "57435d7b0c047d830a9bd3421d85ebc53f74fd843ee15bffd3b6b25f576109f0",
    "size": 53
   },
   {
    "path": "ElderfieldCoop-files/releases.json",
-   "sha256": "0964512b7d9d28f52d109b5a9fc1dfab3078a11f821f674dbd283ddabdd92b44",
-   "size": 73
+   "sha256": "14ec4ef23851cd03c57f9220785aba6d9a8388cdf29efa00fdc01944f0d7a760",
+   "size": 86
   },
   {
    "path": "ElderfieldCoop-files/ws/browser.js",
@@ -137,7 +137,7 @@
   },
   {
    "path": "mod.json",
-   "sha256": "ed14b8755fcf8a336dec76d9be755c95fb0b802bbea89d86c8c74d5078b3e020",
+   "sha256": "967e6ddc167c22acc72da5bfda6d73640424a438bb92d9d12cde3debeff6c98c",
    "size": 453
   }
  ]

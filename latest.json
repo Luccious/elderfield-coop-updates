@@ -1,13 +1,14 @@
 {
  "format": 1,
- "build": "8ced3ffdf3",
+ "build": "df0345b5dc",
  "testedOn": "68034120",
  "date": "2026-11-07",
- "notes": "Co-op updates now go to every game version.",
+ "notes": "Furniture the same on every screen; a 3rd player joins instead of being asked to host; a bare farm gets its clutter; the moon once for everyone; a villager being talked to stands still for all; skipping the tutorial gives its gear.",
  "previous": [
   "53952f5463",
   "b79b639390",
-  "bce654fea0"
+  "bce654fea0",
+  "8ced3ffdf3"
  ],
  "files": [
   {
@@ -107,8 +108,8 @@
   },
   {
    "path": "js/plugins/elderfieldcoop.js",
-   "sha256": "8ced3ffdf340a44a5244f184f3cfce0cbb9d216635cd42519e621cd5d4ca311c",
-   "size": 886340
+   "sha256": "df0345b5dcb8714c73fdedfddf36eef4a71fc46fa1be4103c1fca3b5ed9c0595",
+   "size": 900916
   }
  ]
 }

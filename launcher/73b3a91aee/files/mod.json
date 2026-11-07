@@ -1,0 +1,8 @@
+{
+"name": "Elderfield Co-op",
+"author": "Elderfield Co-op",
+"modversion": "df0345b5dc",
+"languages": "English",
+"description": "Co-op for up to 4 players. CO-OP on the title screen makes a co-op copy of your game the first time (its own folder and its own saves; this game and its saves are not changed), keeps it up to date after game updates, and starts it. Mods > Elderfield Co-op: whether co-op connects through Steam or directly.",
+"priority": 0
+}
