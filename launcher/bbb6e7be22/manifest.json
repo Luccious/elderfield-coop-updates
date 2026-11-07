@@ -1,0 +1,144 @@
+{
+ "format": 1,
+ "kind": "launcher",
+ "build": "bbb6e7be22",
+ "stamp": "2026-11-07T03:55:59Z",
+ "date": "2026-11-07",
+ "files": [
+  {
+   "path": "config.json",
+   "sha256": "ca328d452ba569d39665af6bf24bd68030128622c94ebf76ba51a711fea47b4a",
+   "size": 153
+  },
+  {
+   "path": "ElderfieldCoop-files/coop-plugins.json",
+   "sha256": "9592a520ddaea22402a6c43cb5bfcc7e1276dc6077b533cf7ac60067121fce00",
+   "size": 6053
+  },
+  {
+   "path": "ElderfieldCoop-files/elderfieldcoop.js",
+   "sha256": "8ced3ffdf340a44a5244f184f3cfce0cbb9d216635cd42519e621cd5d4ca311c",
+   "size": 886340
+  },
+  {
+   "path": "ElderfieldCoop-files/launcher.json",
+   "sha256": "1e382b45fb20c9208278fb66aa962a759f833f5da33e5bd2c38f32fb8f7b8d9e",
+   "size": 53
+  },
+  {
+   "path": "ElderfieldCoop-files/releases.json",
+   "sha256": "0964512b7d9d28f52d109b5a9fc1dfab3078a11f821f674dbd283ddabdd92b44",
+   "size": 73
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/browser.js",
+   "sha256": "010da44addea1d88b2b732540c3f1fd0cbcb28926b96623d4c64222e0ead2d0e",
+   "size": 176
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/index.js",
+   "sha256": "924564d5be26d59b9682c4263f68320e48dde7240bd2d1ad17ec305537429dd2",
+   "size": 796
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/lib/buffer-util.js",
+   "sha256": "8b0a45739132f82e25ea13163780abf547ccfe989267f3eb7abb475beec92da3",
+   "size": 3056
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/lib/constants.js",
+   "sha256": "391e823142b8b370e55a2fd32b022deaf03b8415c56000009674ebc86a0b4f86",
+   "size": 503
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/lib/event-target.js",
+   "sha256": "c45d3c6e12d170c860c0c3f1a050aa0f864d9806632b609a1e607d675aba128c",
+   "size": 7321
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/lib/extension.js",
+   "sha256": "852564f0f6b460287043803eae732666fb5610f676874354fc89f06aa4e986ed",
+   "size": 6183
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/lib/limiter.js",
+   "sha256": "e0469d4b83f6ba764b15f80e1766b75c136fbff68f048f4c050f0b1c7f065f69",
+   "size": 1034
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/lib/permessage-deflate.js",
+   "sha256": "16a91536988a53c23047ee5882392068728a839a244178c3b09b8c54982f58b0",
+   "size": 14669
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/lib/receiver.js",
+   "sha256": "a6ada33c9a2d54eaf595824b821ea89ca2c6395f89aa06755c52142148274884",
+   "size": 17439
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/lib/sender.js",
+   "sha256": "d0791d30c3defd44dcabbddb879a901c757993fea2c00a7ffea01d53b23b4b77",
+   "size": 16886
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/lib/stream.js",
+   "sha256": "a56fcb6e2b152097ee820b6f5410b1f71e59819b45d08d9f8bda588fe39070ec",
+   "size": 4204
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/lib/subprotocol.js",
+   "sha256": "be3f6323d6f549568577dcba9004c1479d95c65a7abb0fe0c582875b9fac0b7c",
+   "size": 1498
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/lib/validation.js",
+   "sha256": "41ce8e83d0d434132e1704895fedb91f6703a701b42d91c80954ab29b2845593",
+   "size": 3903
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/lib/websocket-server.js",
+   "sha256": "6d8dd89a841748c80445fd5fcdb5ba8005369b53cc3525135e11304c8b9c55e5",
+   "size": 17022
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/lib/websocket.js",
+   "sha256": "7ccf305925f0cdb74e06b75b4c84de134b1bd771a220ef409b24520def08128f",
+   "size": 37848
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/LICENSE",
+   "sha256": "2b29dcfe0d6471f7e8c92c5fb38c9f93edee10330937055440192f1832b1ecef",
+   "size": 1183
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/package.json",
+   "sha256": "c1ef91ca04eb4754c011c5f0e7638b5078ff71104fada400c44ac761cf93e0b1",
+   "size": 1829
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/README.md",
+   "sha256": "bb979132f3cbff08ce47f36d041e18071f8f534d01f591c0b129ba7abf1e480e",
+   "size": 15306
+  },
+  {
+   "path": "ElderfieldCoop-files/ws/wrapper.mjs",
+   "sha256": "fe154662301fd558f935f9c217fccbe7a7dac02ff39e648a000589403ff27c7f",
+   "size": 554
+  },
+  {
+   "path": "How to play together.txt",
+   "sha256": "9cf27a427876ef9e1512f9ff4ed44b1717f73bb31c32d6be18bcea80cde2fd4b",
+   "size": 6508
+  },
+  {
+   "path": "js/plugins/ElderfieldCoopLauncher.js",
+   "sha256": "78d1e58c9d989b97723173a3b3cbc6e38d73b7301a5b98e5c1333302daf99530",
+   "size": 47964
+  },
+  {
+   "path": "mod.json",
+   "sha256": "ed14b8755fcf8a336dec76d9be755c95fb0b802bbea89d86c8c74d5078b3e020",
+   "size": 453
+  }
+ ]
+}

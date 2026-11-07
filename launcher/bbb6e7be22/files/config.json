@@ -1,0 +1,3 @@
+[
+  { "symbol": "connect", "type": "list", "name": "Co-op connects", "options": ["Through Steam", "Directly (network, code, Hamachi)"], "default": 0 }
+]

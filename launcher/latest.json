@@ -1,8 +1,8 @@
 {
  "format": 1,
  "kind": "launcher",
- "build": "e66b5c4af9",
- "stamp": "2026-11-07T03:52:21Z",
+ "build": "bbb6e7be22",
+ "stamp": "2026-11-07T03:55:59Z",
  "date": "2026-11-07",
  "files": [
   {
@@ -22,7 +22,7 @@
   },
   {
    "path": "ElderfieldCoop-files/launcher.json",
-   "sha256": "26b87cdbdb7175124b59590905429dcde8c2859b5802174dd33fb0ac04c1c38f",
+   "sha256": "1e382b45fb20c9208278fb66aa962a759f833f5da33e5bd2c38f32fb8f7b8d9e",
    "size": 53
   },
   {
@@ -127,13 +127,13 @@
   },
   {
    "path": "How to play together.txt",
-   "sha256": "5e49353b80155f9ff61eee49378ba0c88fc3b586cb1130d10c7471ed1ef5e84e",
-   "size": 6310
+   "sha256": "9cf27a427876ef9e1512f9ff4ed44b1717f73bb31c32d6be18bcea80cde2fd4b",
+   "size": 6508
   },
   {
    "path": "js/plugins/ElderfieldCoopLauncher.js",
-   "sha256": "280a3103c496480b746ced2180db0cff7db14c7664b5dd7a5975becff5fd40ad",
-   "size": 47932
+   "sha256": "78d1e58c9d989b97723173a3b3cbc6e38d73b7301a5b98e5c1333302daf99530",
+   "size": 47964
   },
   {
    "path": "mod.json",
