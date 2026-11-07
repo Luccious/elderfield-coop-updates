@@ -1,9 +1,9 @@
 {
  "format": 1,
  "build": "8ced3ffdf3",
- "gameVersion": "72026594",
- "date": "2026-11-06",
- "notes": "Co-op's mod check names each mod once (Hollowbrook from the mods folder was listed twice). With Vortex, press Deploy after a game update.",
+ "gameVersion": "68034120",
+ "date": "2026-11-07",
+ "notes": "For the WTE hotfix of 2026-11-06 (game version 68034120); co-op itself is unchanged.",
  "previous": [
   "53952f5463",
   "b79b639390",
