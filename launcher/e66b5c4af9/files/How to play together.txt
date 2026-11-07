@@ -1,0 +1,108 @@
+Playing Welcome to Elderfield together
+======================================
+
+Up to 4 players. Everyone needs their own copy of Welcome to Elderfield on Steam, on their own PC, plus this mod.
+
+The mod holds only co-op's own files. Everything of the game's comes from your own Steam copy.
+
+Co-op connects through Steam (a code, a Steam invite or your friends list; friends anywhere, no port forwarding), or
+directly (home network, internet code or Hamachi). Choose it in the game: Mods > Elderfield Co-op > "Co-op connects".
+Everyone playing together connects the same way.
+
+
+INSTALLING (everyone, once)
+---------------------------
+1. Put the ElderfieldCoop folder into the game's mods folder (in Steam: right-click Welcome to Elderfield > Manage >
+   Browse local files, then open mods).
+   Or with Vortex: install it (Mod Manager Download), enable and deploy it. Vortex adds it to the game's plugin list
+   instead of the mods folder, so there's no Mods > Elderfield Co-op page and co-op connects through Steam. To connect
+   directly, put the ElderfieldCoop folder into the mods folder by hand as well; that one's page is used.
+2. Start the game from Steam as usual and choose CO-OP on the title screen.
+3. The first time, it asks to make the co-op copy: a copy of your game in its own folder ("Welcome to Elderfield -
+   Coop" in a Games folder on the game's drive, about 2.5 GB), with co-op added. Choose "Make the co-op copy". It
+   takes a few minutes.
+4. The co-op copy starts by itself and this window closes. Keep Steam running.
+
+After that, CO-OP on the title screen starts the co-op copy straight away.
+
+Good to know:
+- Your Steam game is never changed: the mod only reads it, and it puts the copy outside Steam's folders.
+- Your saves are not copied or touched: your single-player saves stay in your Steam game. The co-op copy has its own
+  save folder, and your co-op worlds live there. Achievements work in the co-op copy too (Steam must be running).
+- After a Steam update of the game, CO-OP brings the co-op copy up to the new version by itself and keeps your co-op
+  worlds. If a game update removed the mod from the mods folder, put it back. With Vortex, press Deploy after a game
+  update (a Steam update can replace the game's plugin list).
+- A co-op copy made with the co-op setup is found and used (its desktop shortcut says where it is).
+- If something goes wrong, the game says what happened. The log is coop-logs\install-log.txt in the co-op copy:
+  send that file to the host.
+- To remove co-op: delete the ElderfieldCoop folder from the mods folder (or remove the mod in Vortex) and the
+  "Welcome to Elderfield - Coop" folder (keep its save folder if you want your co-op worlds).
+
+Updates: when a newer co-op version is out, the co-op copy's title screen offers it (Update now). Only co-op's own
+files change, and your worlds are kept. When you join a host with another co-op version, Join offers the host's
+version.
+
+Everyone must have the same game version. If co-op was tested with an older game version, it will most likely work;
+if something in co-op doesn't, look for a co-op version made for that game version.
+
+
+THROUGH STEAM
+-------------
+Keep Steam running and signed in.
+- Host: CO-OP > Host > a world. The bottom line says "Hosting on Steam. Code 123456". Send your friends the code.
+- Friends:
+  - CO-OP > Join: friends who are hosting are listed by their Steam names. Pick one, or enter the code (or the long
+    Lobby ID shown next to it).
+  - Steam invites: the host presses F9 > Invite Steam friends. The friend accepts in Steam chat. If the game is
+    closed, Steam starts it and co-op joins by itself. If you're in a single-player game, save and go back to the
+    title screen.
+  - Or right-click the host in your Steam friends list > Join Game.
+
+
+DIRECTLY
+--------
+The host:
+1. Start the game, choose CO-OP on the title screen, then the Host tab.
+2. Choose a world (or start a new one).
+3. The bottom line of the screen shows what to tell your friends:
+   - Code (6 digits): for friends on your home network.
+   - Internet code (XXXX-XXXX-XX): for friends online. It only appears when your router opened the port by itself.
+   - LAN IP: your address on your home network.
+   - Hamachi IP (25.x.x.x): when Hamachi is running.
+4. The first time you host, Windows asks whether Elderfield may use the network. Tick both Private and Public and
+   allow it. Hamachi usually counts as "Public".
+
+Joining: choose CO-OP, then Join:
+- On the same home network: the host's 6-digit code, or pick the game under "Games on your network".
+- Online, and the host has an internet code: Enter join code, then the internet code.
+- Online through Hamachi: Enter an address (IP), then the host's Hamachi IP.
+
+Online with Hamachi (when there's no internet code):
+1. Everyone installs LogMeIn Hamachi (free) and signs in.
+2. The host creates a network (Network > Create a new network) and shares its name and password.
+3. Everyone else joins it (Network > Join an existing network).
+4. In the game, join with Enter an address (IP) and the host's Hamachi IP (shown on the host's screen and in the
+   Hamachi window).
+Radmin VPN, ZeroTier or Tailscale work the same way: join the same network, then enter the host's IP from that app.
+
+
+WHILE PLAYING
+-------------
+- Chat: press C to type (change the key in Options > Button Config, "Co-op Chat"). Joins, departures and group
+  moments show up there.
+- F9 opens the Co-op panel. It shows who's playing and where, the host's code and every way to join, and a way to
+  leave the session.
+- Chat commands:
+  - /list: who is where.
+  - /status: turns a small status line (code and player count, top right) on or off.
+  - /help: the commands.
+
+
+IF JOINING FAILS
+----------------
+The game says what went wrong. The usual causes:
+- The host isn't hosting yet, or is in a cutscene. The game then joins by itself when it can.
+- The host's Windows Firewall blocked Elderfield. Allow it in Windows Security > Firewall > Allow an app, for both
+  Private and Public.
+- On Hamachi, someone isn't in the same network, or their Hamachi is switched off (the light should be green).
+- Different game version: everyone needs the same co-op copy.

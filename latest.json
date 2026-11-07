@@ -1,9 +1,9 @@
 {
  "format": 1,
  "build": "8ced3ffdf3",
- "gameVersion": "68034120",
+ "testedOn": "68034120",
  "date": "2026-11-07",
- "notes": "For the WTE hotfix of 2026-11-06 (game version 68034120); co-op itself is unchanged.",
+ "notes": "Co-op updates now go to every game version.",
  "previous": [
   "53952f5463",
   "b79b639390",
