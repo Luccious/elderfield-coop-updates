@@ -1,0 +1,40 @@
+{
+ "made": "2026-11-05",
+ "entry": {
+  "name": "elderfieldcoop",
+  "status": true,
+  "description": "Enables networking, client-server sync, or co-op features for RPG Maker.",
+  "parameters": {
+   "transport": "p2p",
+   "p2pPort": "24680",
+   "allowInternet": "true",
+   "publicAddress": "",
+   "detectPublicIp": "false",
+   "relayUrl": "ws://127.0.0.1:8765"
+  }
+ },
+ "options": [
+  {
+   "symbol": "coopPad",
+   "after": "Control Config",
+   "item": "{\"Symbol:str\":\"coopPad\",\"Icon:num\":\"\",\"TextStr:str\":\"\",\"TextJS:func\":\"\\\"return \\\\\\\"Co-op Controller\\\\\\\";\\\"\",\"Accessibility\":\"\",\"ShowJS:func\":\"\\\"// Return Boolean\\\\nreturn true;\\\"\",\"EnableJS:func\":\"\\\"// Return Boolean\\\\nreturn true;\\\"\",\"ExtJS:func\":\"\\\"// Return Value\\\\nreturn 0;\\\"\",\"Functions\":\"\",\"DrawJS:func\":\"\\\"const index = arguments[1];\\\\nconst title = this.commandName(index);\\\\nconst rect = this.itemLineRect(index);\\\\nconst P = window.ElderfieldCoop && window.ElderfieldCoop.Pads;\\\\nconst value = P ? P.label() : 'Auto';\\\\nthis.resetFontSettings();\\\\nthis.changePaintOpacity(true);\\\\nthis.drawText(title, rect.x, rect.y, rect.width / 2, 'left');\\\\nthis.drawText(value, rect.x + rect.width / 2, rect.y, rect.width / 2, 'right');\\\"\",\"ProcessOkJS:func\":\"\\\"// Wait for a button on the controller this window should use\\\\nconst P = window.ElderfieldCoop && window.ElderfieldCoop.Pads;\\\\nif (!P) return;\\\\nP.claim(this);\\\\nthis.redrawItem(this.findSymbol(arguments[0]));\\\\nthis.playOkSound();\\\"\",\"CursorRightJS:func\":\"\\\"// The next controller that is plugged in (after the last one: Auto)\\\\nconst P = window.ElderfieldCoop && window.ElderfieldCoop.Pads;\\\\nif (!P) return;\\\\nif (P.cycle) P.cycle(1); else { P.claiming = null; P.set(0); }\\\\nthis.redrawItem(this.findSymbol(arguments[0]));\\\\nthis.playCursorSound();\\\"\",\"CursorLeftJS:func\":\"\\\"// The previous controller that is plugged in (before the first one: Auto)\\\\nconst P = window.ElderfieldCoop && window.ElderfieldCoop.Pads;\\\\nif (!P) return;\\\\nif (P.cycle) P.cycle(-1); else { P.claiming = null; P.set(0); }\\\\nthis.redrawItem(this.findSymbol(arguments[0]));\\\\nthis.playCursorSound();\\\"\",\"Data\":\"\",\"DefaultJS:func\":\"\\\"// Each window keeps its own controller (browser storage), not the shared config.\\\"\",\"SaveJS:func\":\"\\\"// Each window keeps its own controller.\\\"\",\"LoadJS:func\":\"\\\"// Each window keeps its own controller.\\\"\"}"
+  },
+  {
+   "symbol": "coopNames",
+   "after": "reset",
+   "item": "{\"Symbol:str\":\"coopNames\",\"Icon:num\":\"\",\"TextStr:str\":\"\",\"TextJS:func\":\"\\\"return \\\\\\\"Show player names\\\\\\\";\\\"\",\"Accessibility\":\"\",\"ShowJS:func\":\"\\\"// Return Boolean\\\\nreturn true;\\\"\",\"EnableJS:func\":\"\\\"// Return Boolean\\\\nreturn true;\\\"\",\"ExtJS:func\":\"\\\"// Return Value\\\\nreturn 0;\\\"\",\"Functions\":\"\",\"DrawJS:func\":\"\\\"// Declare Constants\\\\nconst symbol = arguments[0];\\\\nconst index = arguments[1];\\\\nconst title = this.commandName(index);\\\\nconst rect = this.itemLineRect(index);\\\\nconst quarterWidth = rect.width / 4;\\\\nconst halfWidth = rect.width / 2;\\\\nconst value = this.getConfigValue(symbol);\\\\n\\\\n// Draw Command Name\\\\nthis.resetFontSettings();\\\\nthis.changePaintOpacity(true);\\\\nthis.drawTextEx(title, rect.x, rect.y, halfWidth, \\\\\\\"left\\\\\\\");\\\\n\\\\n// Draw Status Text\\\\nconst off = 'OFF';\\\\nconst on  = 'ON';\\\\nthis.changePaintOpacity(!value);\\\\nthis.drawText(off, rect.x + halfWidth, rect.y, quarterWidth, \\\\\\\"center\\\\\\\");\\\\nthis.changePaintOpacity(value);\\\\nthis.drawText(on, rect.x + halfWidth + quarterWidth, rect.y, quarterWidth, \\\\\\\"center\\\\\\\");\\\"\",\"ProcessOkJS:func\":\"\\\"// Declare Constants\\\\nconst symbol = arguments[0];\\\\nconst value = this.getConfigValue(symbol);\\\\n\\\\n// Perform Actions\\\\nthis.setConfigValue(symbol, !value);\\\\nthis.redrawItem(this.findSymbol(symbol));\\\\nthis.playCursorSound();\\\"\",\"CursorRightJS:func\":\"\\\"// Declare Constants\\\\nconst symbol = arguments[0];\\\\nconst value = this.getConfigValue(symbol);\\\\nconst lastValue = value;\\\\n\\\\n// Perform Actions\\\\nthis.setConfigValue(symbol, true);\\\\nthis.redrawItem(this.findSymbol(symbol));\\\\nif (this.getConfigValue(symbol) !== lastValue) {\\\\n    this.playCursorSound();\\\\n}\\\"\",\"CursorLeftJS:func\":\"\\\"// Declare Constants\\\\nconst symbol = arguments[0];\\\\nconst value = this.getConfigValue(symbol);\\\\nconst lastValue = value;\\\\n\\\\n// Perform Actions\\\\nthis.setConfigValue(symbol, false);\\\\nthis.redrawItem(this.findSymbol(symbol));\\\\nif (this.getConfigValue(symbol) !== lastValue) {\\\\n    this.playCursorSound();\\\\n}\\\"\",\"Data\":\"\",\"DefaultJS:func\":\"\\\"// Declare Constants\\\\nconst config = arguments[0];\\\\nconst symbol = arguments[1];\\\\n\\\\n// Perform Actions\\\\nConfigManager[symbol] = true;\\\"\",\"SaveJS:func\":\"\\\"// Declare Constants\\\\nconst config = arguments[0];\\\\nconst symbol = arguments[1];\\\\n\\\\n// Return Value\\\\nconfig[symbol] = ConfigManager[symbol];\\\"\",\"LoadJS:func\":\"\\\"// Declare Constants\\\\nconst config = arguments[0];\\\\nconst symbol = arguments[1];\\\\n\\\\n// Return Value\\\\nConfigManager[symbol] = config[symbol];\\\"\"}"
+  }
+ ],
+ "keys": [
+  {
+   "key": "coopchat",
+   "after": "purecancel",
+   "item": "{\"DisplayName\":\"Co-op Chat\",\"From Key\":\"coopchat\",\"To Key\":\"C\",\"Gamepad Key\":\"\",\"Visibility\":\"Show in Button Config\",\"a\":\"\",\"aa\":\"\",\"b\":\"\",\"Icon\":\"0\",\"Common Event ID\":\"\",\"Options\":\"triggered\",\"AllowParallel\":\"false\"}"
+  },
+  {
+   "key": "coopemote",
+   "after": "coopchat",
+   "item": "{\"DisplayName\":\"Co-op Emote\",\"From Key\":\"coopemote\",\"To Key\":\"G\",\"Gamepad Key\":\"\",\"Visibility\":\"Show in Button Config\",\"a\":\"\",\"aa\":\"\",\"b\":\"\",\"Icon\":\"0\",\"Common Event ID\":\"\",\"Options\":\"triggered\",\"AllowParallel\":\"false\"}"
+  }
+ ]
+}

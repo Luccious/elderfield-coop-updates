@@ -1,14 +1,15 @@
 {
  "format": 1,
- "build": "df0345b5dc",
+ "build": "95b55118ff",
  "testedOn": "68034120",
- "date": "2026-11-07",
- "notes": "Furniture the same on every screen; a 3rd player joins instead of being asked to host; a bare farm gets its clutter; the moon once for everyone; a villager being talked to stands still for all; skipping the tutorial gives its gear.",
+ "date": "2026-11-08",
+ "notes": "Trading between players: click another player, press F10 beside them, or pick them in the F9 panel; both offer items, weapons or armor, then Ready. Give a gift without asking anything back.",
  "previous": [
   "53952f5463",
   "b79b639390",
   "bce654fea0",
-  "8ced3ffdf3"
+  "8ced3ffdf3",
+  "df0345b5dc"
  ],
  "files": [
   {
@@ -108,8 +109,8 @@
   },
   {
    "path": "js/plugins/elderfieldcoop.js",
-   "sha256": "df0345b5dcb8714c73fdedfddf36eef4a71fc46fa1be4103c1fca3b5ed9c0595",
-   "size": 900916
+   "sha256": "95b55118ff06514fc925ad07b611a94f635efc7089a6a0f4780f5280a1afabaf",
+   "size": 913495
   }
  ]
 }
